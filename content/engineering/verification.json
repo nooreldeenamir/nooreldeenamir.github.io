@@ -1,0 +1,36 @@
+{
+  "verifiedOn": "2026-11-11",
+  "environment": { "node": "v22.11.0", "platform": "Windows" },
+  "tests": {
+    "command": "npm test",
+    "passed": 29,
+    "failed": 0,
+    "skipped": 0,
+    "network": false
+  },
+  "demos": {
+    "npm run demo:sdk": {
+      "exitCode": 0,
+      "fixture": { "base": "EUR", "quote": "USD", "rate": 1.25 },
+      "capturedPath": "/v2/rate/EUR/USD",
+      "signalForwarded": true
+    },
+    "npm run demo:llm": {
+      "exitCode": 0,
+      "acceptedStatus": "needs_review",
+      "rejectedExcessMark": "Mark outside permitted range"
+    }
+  },
+  "scope": [
+    "Independent educational transport adapter, not generated SDK coverage",
+    "Synthetic feedback proposals, no model calls or model-quality claims",
+    "AI-assisted drafting, code preparation and execution"
+  ],
+  "notEstablished": [
+    "Current API availability or current exchange rates",
+    "Real transport cancellation or timeout behavior",
+    "Correctness of feedback reasoning",
+    "Production readiness or measured business outcomes",
+    "A sustained history of talks or open-source contributions"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "aontu-review-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible examples for a critical review of Aontu 0.76.0",
+  "license": "MIT",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test verify.cjs",
+    "examples": "node examples.cjs",
+    "evidence": "node examples.cjs --write-evidence"
+  },
+  "dependencies": { "aontu": "0.76.0" }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "nooreldeen-engineering-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Small standalone examples accompanying technical articles",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "demo:sdk": "node examples/rates-demo.mjs",
+    "demo:llm": "node examples/feedback-demo.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}

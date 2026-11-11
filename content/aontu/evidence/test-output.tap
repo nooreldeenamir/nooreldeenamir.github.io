@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: every published JavaScript snippet produces its documented output
+ok 1 - every published JavaScript snippet produces its documented output
+  ---
+  duration_ms: 131.6954
+  type: 'test'
+  ...
+# Subtest: an integer default does not admit a string override
+ok 2 - an integer default does not admit a string override
+  ---
+  duration_ms: 19.3321
+  type: 'test'
+  ...
+# Subtest: reversing contradictory concrete declarations does not fix the conflict
+ok 3 - reversing contradictory concrete declarations does not fix the conflict
+  ---
+  duration_ms: 42.1253
+  type: 'test'
+  ...
+# Subtest: closed validation identifies the extra key rather than an unrelated error
+ok 4 - closed validation identifies the extra key rather than an unrelated error
+  ---
+  duration_ms: 17.5089
+  type: 'test'
+  ...
+# Subtest: the no-includes profile refuses source loading
+ok 5 - the no-includes profile refuses source loading
+  ---
+  duration_ms: 22.2186
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 724.8615

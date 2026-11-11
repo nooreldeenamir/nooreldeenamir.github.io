@@ -1,0 +1,41 @@
+{
+  "node": "v24.22.1",
+  "aontu": "0.76.0",
+  "articleSha256": "4c8646924300e154c13cc6c6120fe33457dae36745531a73ad3607cc25cd20e8",
+  "codeBlocks": 3,
+  "outputs": [
+    [
+      {
+        "service": {
+          "host": "localhost",
+          "port": 8080
+        }
+      }
+    ],
+    [
+      {
+        "port": 8080
+      }
+    ],
+    [
+      {
+        "port": 9090
+      }
+    ],
+    [
+      "AontuError"
+    ],
+    [
+      "invalid",
+      "$.port"
+    ],
+    [
+      "valid"
+    ],
+    [
+      "invalid"
+    ]
+  ],
+  "verifiedAt": "2026-11-11T18:38:13.343Z",
+  "execution": "AI-assisted"
+}

@@ -1,0 +1,6 @@
+node_modules/
+dist/
+content/**/node_modules/
+.cache/
+qa/
+*.log

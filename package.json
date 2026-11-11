@@ -1,0 +1,14 @@
+{
+  "name": "nooreldeen-technical-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Technical articles, reproducible examples and workshop notes by Nooreldeen Abdelkarim.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "check": "npm run build && npm test"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": { "markdown-it": "14.1.0" }
+}
